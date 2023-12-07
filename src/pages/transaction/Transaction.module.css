@@ -1,0 +1,53 @@
+.tContainer {
+  max-width: 1024px;
+  margin: 24px auto;
+}
+
+.tTable {
+  width: 100%;
+  margin-top: 24px;
+  border-collapse: collapse;
+}
+
+.tTable td,
+.tTable th {
+  padding: 8px;
+  border: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.tTable tr:nth-child(even) {
+  background-color: #cbcbcb74;
+}
+
+.tTable tr:hover {
+  background-color: #7a7a7aa0;
+}
+
+.tTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: start;
+  background-color: #45a1b7;
+  color: #fff;
+}
+
+.booked {
+  background-color: #f6a997ba;
+  color: green;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.checkin {
+  background-color: rgba(0, 164, 0, 0.386);
+  color: green;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.checkout {
+  background-color: #cd81f174;
+  color: green;
+  padding: 5px;
+  border-radius: 5px;
+}

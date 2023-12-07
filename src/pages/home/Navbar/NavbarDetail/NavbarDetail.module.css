@@ -1,0 +1,12 @@
+.navBar {
+  width: 70%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+}
+
+.navBar li {
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 12px;
+}
+
+.containerItem {
+  position: relative;
+  width: 33%;
+}
+
+.containerItem h3 {
+  font-size: 36px;
+  color: #fff;
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+}
+
+.containerItem p {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  left: 10%;
+  bottom: 7%;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}

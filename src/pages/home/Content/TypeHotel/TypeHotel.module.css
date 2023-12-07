@@ -1,0 +1,19 @@
+.title {
+  margin: 32px 0 24px;
+}
+
+.container {
+  display: flex;
+  gap: 8px;
+}
+
+.containerItem img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+  height: 80%;
+}
+
+.containerItem h4 {
+  text-transform: capitalize;
+}

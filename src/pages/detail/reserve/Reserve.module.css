@@ -1,0 +1,115 @@
+.reserve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.datesRInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1024px;
+  gap: 24px;
+  margin: 36px 0;
+  position: relative;
+}
+
+.login {
+  flex-grow: 1;
+}
+
+.lContain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lInput {
+  height: 30px;
+  padding: 10px;
+}
+
+.rContainer {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 32px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.rClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.selectedRoomsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rItem {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.rInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rTitle {
+  font-weight: 500;
+}
+
+.rDesc {
+  font-weight: 300;
+}
+
+.rMax {
+  font-size: 12px;
+}
+
+.rPrice {
+  font-weight: 500;
+}
+
+.rSelectRooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 8px;
+  color: gray;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+}
+
+.paymentContainer {
+  margin: 12px 0 0 32px;
+  display: flex;
+  gap: 46px;
+}
+
+.paymentContainer select {
+  padding: 8px 12px;
+  background-color: rgba(169, 169, 169, 0.238);
+}
+
+.rButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1100ad;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 164px;
+}

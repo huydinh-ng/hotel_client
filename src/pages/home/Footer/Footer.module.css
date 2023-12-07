@@ -1,0 +1,11 @@
+.container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 64px auto;
+  color: #1100ad;
+}
+
+.item {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,51 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.navbar {
+  background-color: #1100ad;
+  padding: 16px 0 0;
+  height: 20%;
+}
+
+.login {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.login h2 {
+  font-size: 34px;
+}
+
+.Contain {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+}
+
+.Input {
+  height: 30px;
+  padding: 10px;
+}
+
+.Button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1100ad;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Button:disabled {
+  background-color: #1100ad;
+  cursor: not-allowed;
+}

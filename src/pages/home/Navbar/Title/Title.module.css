@@ -1,0 +1,21 @@
+.header {
+  width: 70%;
+  padding: 8px 0;
+  margin: 0 auto 24px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.title {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}

@@ -1,0 +1,40 @@
+.container {
+  background-color: #1100ad;
+  margin: 86px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.title {
+  margin: 36px auto 24px;
+  font-size: 32px;
+}
+
+.form {
+  width: 460px;
+  height: 46px;
+  margin: 24px auto 36px;
+}
+
+.input {
+  width: 70%;
+  height: 100%;
+  margin-right: 24px;
+  border: none;
+  border-radius: 6px;
+  padding: 0 8px;
+  outline: none;
+}
+
+.btn {
+  width: 20%;
+  height: 100%;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(49, 123, 235);
+  color: #fff;
+  cursor: pointer;
+}
